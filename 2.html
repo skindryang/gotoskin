@@ -3,37 +3,57 @@
 <head>
   <title>최신레이저</title>
   <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119341146-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <style>
 
-  gtag('config', 'UA-119341146-1');
-</script>
+   body{margin:40px;}
 
+   a {color: black; text-decoration: none;  }
+
+   h1{  text-align: center;
+        font-size: 40px;
+         border-bottom: solid 3px gray;
+                        margin:0;
+                        padding:30px;}
+
+   #grid {display: grid;
+         grid-template-columns: 250px 1fr;}
+
+   #grid ol{ font-size: 25px;
+                  border-right: 2px gray solid;
+                   width: 180px; margin: 0;
+                   padding-top: 30px; padding-left:45px;}
+
+    #grid #article{padding-top: 12px;}
+
+  </style>
 </head>
 <body>
-  <h1> <a href="index.html">지오피부과</a></h1>
-  <h4>
+  <h1> <a href="index.html">지오 피부과</a></h1>
+
+  <div id="grid">
     <ol>
-      <li><a href="1.html">의료진 소개</a></li>
-      <li><a href="2.html">최신 레이저</a></li>
+      <li><a href="1.html" >의료진 소개</a></li>
+      <li><a href="2.html" >최신 레이저</a></li>
       <li><a href="3.html">최신 시술</a></li>
       <li><a href="4.html">공지 사항</a></li>
     </ol>
-  </h4>
 
-  <h2> 최신레이저 </h2>
-  <p> 포토타 QX-MAX 레이저</p>
-  <p> 포토나 레이저는 기미에 효과적인 레이저입니다. <br>
-    1주일에 한번씩 내원해서 시술하며 미백관리와 병행시 시너지 효과를 볼수있습니다</p>
-  <p>더 자세한 사항은 네이버  <a href="https://blog.naver.com/gotoskin/" target="_blank" title="네이버 블로그">
-      지오피부과 블로그</a>로 가시면 확인할수 있습니다.</p>
-  <p>   싸이톤 BBL 레이저</P>
-  <P><iframe width="560" height="315" src="https://www.youtube.com/embed/8KOnOz1uyII"
-    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+    <div id="article">
+     <h2> 최신 레이저 </h2>
 
+     <h3> 포토나 QX-MAX 레이저</h3>
+     <p> 포토나 레이저는 기미에 효과적인 레이저입니다. <br>
+       1주일에 한번씩 시술하며 미백관리와 병행시 시너지 효과를 볼 수 있습니다</p>
+     <p>더 자세한 사항은 네이버  <a href="https://blog.naver.com/gotoskin/" target="_blank" title="네이버 블로그">
+        지오피부과 블로그</a>에서 확인할 수 있습니다.</p>
+        <br>
+
+     <h3>   싸이톤 BBL 레이저</h3>
+      <P><iframe width="560" height="315" src="https://www.youtube.com/embed/8KOnOz1uyII"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        <br>
+        <br>
+    </div>
+  </div>
 </body>
 </html>
